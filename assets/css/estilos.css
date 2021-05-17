@@ -81,4 +81,14 @@ footer{
     height: 400px;
 }
 
+@media only screen and (max-width:985px){
+
+    *{
+        display: none;
+    }
+    b{
+        content: "ESTA SECCION ESTARA DISPONIBLE PROXIMAMENTE";
+        color: #000;
+    }
+}
   
