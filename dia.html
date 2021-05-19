@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
     <title>Su dia de spa</title>
 </head>
 <body>
@@ -18,7 +17,10 @@
                 <img src="assets/imagenes/icono.jpg">
             </div>
         <nav>
-            <ul class="nav__ul">
+            <div class="menu">
+                <i class=" fas fa-bars" aria-hidden="true"></i>
+            </div>
+            <ul class="nav__ul mostrar">
                 <li class="nav__li"><i class="fas fa-home"><a href="index.html">Inicio</a></i></li>
                 <li class="nav__li"><i class="fas fa-user-friends"><a href="nosotros.html">Nosotros</a></i></li>
                 <li class="nav__li"><i class="fas fa-calendar-day"><a href="dia.html">Su dia de Spa</a></i></li>
@@ -33,35 +35,30 @@
         <br>
         <p>Consiéntase con un día de placer indulgente en nuestro spa de clase mundial. Elija entre una variedad de rejuvenecedores paquetes de spa que incluyen los más recientes tratamientos autóctonos y de hidroterapia. O simplemente deje que un relajante masaje haga desaparecer su estrés.</p>
         <br><br>
-        <table>
-            <tr>
-                <td>
-                    <img src="https://images.e-tsw.com/_lib/b2b2c-sites/amr/dreamsmx/img/servicios/your-spa-day/paquetes-spa.jpg" class="img-dia">
-                </td>
-                <td>
+                    <div class="galeria"> 
+                        <div>
+                        <img src="https://images.e-tsw.com/_lib/b2b2c-sites/amr/dreamsmx/img/servicios/your-spa-day/paquetes-spa.jpg" class="img-dia">
                     <h3>Paquetes de spa</h3>
                     <p>Descubra más de 30 tratamientos y terapias revitalizantes para aliviar sus músculos y relajar su mente.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Lujosas amenidades</h3>
-                    <p>Piérdase en uno de nuestras tinas de hidromasaje, saunas, cuartos de vapor o elegantes salones de tratamiento.</p>
-                </td>
-                <td>
-                    <img src="https://images.e-tsw.com/_lib/b2b2c-sites/amr/dreamsmx/img/servicios/your-spa-day/spa-lujo.jpg" class="img-dia">
-                </td>
-            </tr>
-            <tr>
-                <td>
+                    </div>
+                    <div>
+                        <img src="https://images.e-tsw.com/_lib/b2b2c-sites/amr/dreamsmx/img/servicios/your-spa-day/spa-lujo.jpg" class="img-dia">
+                        <h3>Lujosas amenidades</h3>
+                        <p>Piérdase en uno de nuestras tinas de hidromasaje, saunas, cuartos de vapor o elegantes salones de tratamiento.</p>    
+                    </div> 
+                    <div>
                     <img src="https://images.e-tsw.com/_lib/b2b2c-sites/amr/dreamsmx/img/servicios/your-spa-day/spa-extras.jpg?v=1" class="img-dia">
-                </td>
-                <td>
                     <h3>Excepcionales extras</h3>
                     <p>Aproveche el servicio de pedicura en nuestro salón de belleza o ejercítese en nuestro gimnasio de vanguardia.</p>
-                </td>
-            </tr>
-        </table>
+                    </div>
+                </div>
+                
+                <h2 class="h2-dia">RELÁJATE Y DISFRUTA</h2>
+                <div class="galeria">
+                    <img src="https://d8fl45hajx8ae.cloudfront.net/s3fs-public/2021-03/spa-mpc-767x412px-30oct-2.jpg">
+                    <img src="https://d8fl45hajx8ae.cloudfront.net/s3fs-public/2021-03/spa-mpc-767x412px-30oct.jpg">
+                    <img src="https://d8fl45hajx8ae.cloudfront.net/s3fs-public/2021-03/spa-mpc-767x412px-30oct-3.jpg">
+                </div>
 
     </main>
     <footer>
@@ -74,5 +71,9 @@
          Twitter: @Spa_Eliceo
          <br>
      </footer>
+
+     <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
