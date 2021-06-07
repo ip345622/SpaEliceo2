@@ -17,7 +17,10 @@
             <img src="assets/imagenes/icono.jpg">
         </div>
     <nav>
-        <ul class="nav__ul">
+        <div class="menu">
+            <i class=" fas fa-bars" aria-hidden="true"></i>
+        </div>
+        <ul class="nav__ul mostrar">
             <li class="nav__li"><i class="fas fa-home"><a href="index.html">Inicio</a></i></li>
             <li class="nav__li"><i class="fas fa-user-friends"><a href="nosotros.html">Nosotros</a></i></li>
             <li class="nav__li"><i class="fas fa-calendar-day"><a href="dia.html">Su dia de Spa</a></i></li>
@@ -31,13 +34,23 @@
     <div class="flex-container2">
         <form class="form">
              <div class="form__section">
+                 <p>Fecha</p>
                  <input type="date" class="form__input">
              </div>
              <div class="form__section">
-                 <input type="text" class="form__input" placeholder="Elija su tipo de masaje">
-             </div>
+                 <p>Horario</p>
+                <input class="form__input" type="time">
+            </div>
              <div class="form__section">
-                 <textarea class="form__input" placeholder="Escriba su mensaje"></textarea>
+                <p>Tipo de masaje</p>
+                 <select class="form__input"  size="1">
+                     <option></option>
+                    <option>Masaje relajante</option>
+                    <option>Masaje terapéutico</option>
+                    <option>Masaje de tejido profundo</option>
+                    <option>Masaje sueco</option>
+                    <option>Masaje Shiatsu</option>
+                 </select>
              </div>
              <div class="form__section">
                  <input type="submit"class="form__input">
@@ -58,5 +71,8 @@
              Twitter: @Spa_Eliceo
              <br>
          </footer>
+         <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
